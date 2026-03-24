@@ -24,17 +24,18 @@ class Notes {
 			System.out.println(num + " is positive");
 		}
 			//code can not be written between your if and else statement.
-		else { //num <= 0
+		else { //num <= 0 -> !(num > 0)
 			System.out.println(num + " is not positive");
 		}
 		
 	}
 
 	public static String isOne(int num) {
+		
 		if (num == 1) {
-			return "Is one";
+			return "Is one"; //when true, the program stops here
 		}
-		return "Is not one"; //works like else
+		return "Is not one"; //works like else -> only reach when the if is false
 	}
 	
 }
