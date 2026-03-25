@@ -16,7 +16,7 @@ public class PracticeProblem {
         if (num > 0) {
             return "Positive";
         } else {
-            return "Negative"
+            return "Negative";
         }
     }
     
@@ -30,9 +30,9 @@ public class PracticeProblem {
     
     public static String isHello (String word) {
         if (word.equals("Hello")) {
-            return "The word is Hello"
+            return "The word is Hello";
         } else {
-            return "The word is not Hello"
+            return "The word is not Hello";
         }
     }
 }
